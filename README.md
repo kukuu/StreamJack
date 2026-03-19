@@ -22,6 +22,13 @@ Watch how this works when videos finish playing or skip to the end:
  - https://www.azzottomovies.com/lounge-africa
  - https://www.azzottomovies.com/lounge-asia
 
+## Snapshots
+<img width="772" height="417" alt="streamjack-injector-2" src="https://github.com/user-attachments/assets/1ab7f5ae-7720-4aeb-bf3e-f76f5076e07c" />
+
+<img width="1423" height="677" alt="streamjack-injector-1" src="https://github.com/user-attachments/assets/0559de02-b27a-4baa-a9cb-18d263f4caee" />
+
+
+
 ## Vault (Code)
 
 https://github.com/kukuu/streamjack-vault  (**PRIVATE**)
