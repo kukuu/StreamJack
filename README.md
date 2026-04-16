@@ -4,7 +4,9 @@
 **Author: Alexander Adu-Sarkodie** 
 <!--_Turning Video Endings into Revenue Engines_-->  
  
-StreamJack is an intelligent post-roll monetization system that detects high-intent viewers and automatically continues their journey with targeted, monetized video content.
+StreamJack is a post-video monetization platform that captures viewer attention the moment content ends and seamlessly continues the experience with relevant, revenue-generating video.
+
+By targeting high-intent viewers at peak engagement, StreamJack increases session time, ad exposure, and conversion rates—without interrupting the viewing experience.
 
 ## Overview
  
