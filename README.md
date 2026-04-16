@@ -26,6 +26,14 @@ Watch how this works when videos finish playing or skip to the end:
 
  - https://www.azzottomovies.com/lounge
 
+## Technical Architecture 
+
+StreamJack integrates with embedded video players and monitors playback state to identify end-of-content events in real time.
+
+Upon completion, it dynamically renders a configurable post-play experience using a lightweight client-side framework, enabling publishers to display partner content, promotions, or additional media.
+
+The system uses a combination of event-driven triggers and timing thresholds to ensure consistent activation across different playback scenarios, providing reliable and responsive transitions.
+
 ## Snapshots
 
 <img width="1423" height="677" alt="streamjack-injector-1" src="https://github.com/user-attachments/assets/0559de02-b27a-4baa-a9cb-18d263f4caee" />
