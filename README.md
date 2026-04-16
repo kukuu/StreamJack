@@ -10,13 +10,17 @@ By targeting high-intent viewers at peak engagement, StreamJack increases sessio
 
 ## Overview
  
-_Turning Video Endings into Revenue Engines_   
+_Turning Video Endings into Revenue Engines_ 
 
-This innovation represents a sophisticated middleware layer that fundamentally alters the video playback experience by intercepting the native video workflow at a critical juncture. Rather than for example  allowing a YouTube's default behavior of displaying related videos and end-screen recommendations which may be irrelevant, it implements a polling mechanism that continuously monitors the player state and current playback position. When the video nears its conclusion  the system takes over the player instance, clears the container DOM elements, and injects custom rich media promos component - all before the native end-screen has a chance to render. This creates a seamless transition from content to partner promotions without the jarring appearance of it's own recommendations.
+StreamJack enhances the post-video experience by seamlessly transitioning viewers into relevant, monetized content at the moment a video ends.
 
-The technical implementation leverages the  API's event system combined with a high-frequency polling interval (150ms) to detect the precise moment before video completion. A `forceShowPromos()` function executes a multi-step takedown: first visually hiding the system's container with CSS transformations (opacity:0, pointer-events:none), then recursively removing all child nodes from the container, nullifying the player instance, and finally updating React state to render the partner promo content. This aggressive cleanup ensures the system can't regain control or display any of its own UI elements, effectively creating a walled garden where the partner content has exclusive access to the user's attention at the most valuable moment - immediately after content consumption.
+Instead of relying on generic end-screen recommendations, StreamJack enables publishers to guide high-intent viewers toward curated partner content, extending engagement and unlocking additional revenue opportunities.
 
-What makes this approach particularly elegant is how it maintains the illusion of a native system experience while completely extending its behaviour both event-based detection (`onStateChange: 0`) and time-based polling (`(duration - currentTime) < 2.5`). StreamJack  creates a redundant detection system that guarantees its promos or partner content  will appear regardless of the system to assert its own UI and serve irrelevant content. The conditional close button logic further refines the experience, ensuring users only see a single, consistent close button whether watching videos or viewing partner promotions.
+The system intelligently detects when a viewer has reached the end of a video and instantly continues the experience with tailored media, creating a smooth, uninterrupted journey from content consumption to conversion.
+
+By controlling the post-play experience within a publisher-managed environment, StreamJack ensures that attention is directed toward the most valuable outcomes—whether that’s additional content, promotions, or offers.
+
+
 
 Watch how this works when videos finish playing or skip to the end:
 
