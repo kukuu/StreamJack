@@ -6,7 +6,7 @@
  
 StreamJack is a post-video monetization platform that captures viewer attention the moment content ends and seamlessly continues the experience with relevant, revenue-generating video.
 
-By targeting high-intent viewers at peak engagement, StreamJack increases session time, ad exposure, and conversion rates—without interrupting the viewing experience.
+By targeting high-intent viewers at peak engagement, StreamJack increases session time, ad exposure, and conversion rates without interrupting the viewing experience.
 
 ## Overview
  
